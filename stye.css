@@ -1,0 +1,38 @@
+#input{
+    width: 350px;
+    padding: 5px 50px;
+}
+#login{
+    padding: 5px 50px;
+    background-color: coral;
+    outline-color: crimson;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+#login:focus{
+    background-color: rgb(253, 98, 42);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#input:focus{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: 1px solid gray;
+}
+/* const values = () => {
+    const input = document.getElementById('input');
+    const inputField = input.value;
+    // console.log(inputField)
+    return inputField
+} */ 
+#fl{
+    margin-left: 568px;
+    margin-bottom: -30px;
+    color: red;
+    font-weight: bold;
+}
+#sc{
+    margin-left: 568px;
+    margin-bottom: -30px;
+    color: green;
+    font-weight: bold;
+}
